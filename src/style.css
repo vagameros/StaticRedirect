@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    background-color:#FFFFFF;
+}
+
+#front-page-title{
+    text-align: center;
+    font-size: 50px;
+    color: #041E42;
+}
+#front-page-subtitle{
+    text-align: center;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+#link-text{
+    size: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+#link-button{
+    border-radius: 8px;
+    background-color: #041E42;
+   
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: width 0.25s ease, transform 0.25s ease;
+    width: 250px;
+    height: 68.25px;
+
+}
+
+#link-button:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 275px;
+    transform: translateY(-5px);
+}
+
+#button-container{
+    text-align: center;
+    
+}
+    #button-container :hover{
+        background-color: #adadac;
+        cursor: pointer;
+        
+    }
+    #button-container :active{
+        background-color: #706f6f
+    }
+
+.utep-logo{
+    position:absolute;
+    top: 0%; 
+    left: 50%;
+    transform: translateX(-50%);
+}

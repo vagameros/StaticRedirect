@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+     <link rel="stylesheet" href="style.css">
+    <head>
+        <title>UTEP Outage Page</title>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
-
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
-
+    <body>
+        <img src="utep_logo_orange.png" class="utep-logo" width="200" height="167.9">
+        <br><br><br><br><br><br><br>
+        
+        <p id="front-page-title">
+            UTEP Outage Page <br>
+           <span style="display: block; font-size: 40px; margin-top: 25px;">Online services currently available:</span>
+        </p>
+        <div id="button-container">
+            <a style="color: black; text-decoration: none" href="https://outlook.office.com/mail/">
+                <button id="link-button">
+                    <p id="link-text" style="color: white;">
+                        Email     
+                    </p>
+                </button>
+            </a>
+            <br><br><br>
+            <a style="color: black; text-decoration: none" href="https://blackboardlearn.utep.edu/auth-saml/saml/login?apId=_4240_1">
+            <button id="link-button">
+                <p id="link-text" style="color: white">
+                    Blackboard
+                </p>
+            </button>
+            </a>
+            <br><br><br>
+            <a style="color: black; text-decoration: none" href="https://onedrive.live.com/login">
+            <button id="link-button">
+                <p id="link-text" style="color: white">Microsoft 365 Apps
+                </p>
+            </button>
+            </a>
+            <br><br><br><br>
+            <a style="color: black; text-decoration: none" href="https://utep.service-now.com/esc?id=sc_cat_item&sys_id=28ff807debf3ea501291f8f7fcd0cd0a">
+            <button id="link-button" style="padding: 0px; margin-top: 10px;">
+                <p id="link-text" style="color: white; margin: 0;">
+                    Submit Support Ticket
+                </p>
+            </button>
+            </a>
+        </div>
+    </body>
 </html>
